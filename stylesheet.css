@@ -10,13 +10,31 @@ body {
     padding-bottom: 10px;
 }
 
-@media (max-width:680px) {
+@media all and (max-width: 670px) {
+    
+    .body {
+        width: 670px;
+    }
+        
     .calculator{
        width: 100%;
        margin: 0 auto;
     }
+
     .top-wrapper {
         text-align: left;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    
+    .body {
+        width: 1000px;
+    }
+        
+    .calculator{
+       width: 80%;
+       margin: 0 auto;
     }
 }
 
