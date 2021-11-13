@@ -10,10 +10,10 @@ body {
     padding-bottom: 10px;
 }
 
-@media (max-width:700px) {
+@media (max-width:680px) {
     .calculator{
        width: 100%;
-       text-align: center;
+       text-align: left;
        margin: 0 auto;
     }
 }
